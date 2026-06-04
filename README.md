@@ -1,14 +1,16 @@
 # Subspace Track-before-Detect for Passive Multi-Target Tracking with Unknown Emitted Signals
 This repository provides a Python notebook for passive multi-target track-before-detect (TBD) under unknown emitted signals. The notebook presents a comparative simulation study between the proposed subspace TBD method based on the Bingham likelihood and a conventional TBD method based on a Gaussian likelihood, evaluated under identical trajectories, observations, and random seeds. 
+
 The simulation considers microphones placed uniformly along the perimeter of a square room, sinc-correlated noise, soft spatial boundary weighting, and a particle-filter-based TBD framework. The notebook generates synthetic multichannel observations, applies both likelihood models, and visualizes the resulting target position estimates together with the root mean square error (RMSE).
+
 Copyright (c) 2026 National Institute of Advanced Industrial Science and Technology (AIST). Licensed under CC BY-SA 4.0.
 ## Software Requirements
 The notebook is written in Python and depends mainly on NumPy, Matplotlib, and FilterPy.
 ## Quick Start
 1.	Clone this repository.
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/nobutaka-ito/subspaceTBD.git
+cd subspaceTBD
 ```
 2.	Create a virtual environment and install the required packages.
 ```bash
