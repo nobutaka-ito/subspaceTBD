@@ -3,7 +3,9 @@ This repository provides a Python notebook for passive multi-target track-before
 
 The simulation considers microphones placed uniformly along the perimeter of a square room, sinc-correlated noise, soft spatial boundary weighting, and a particle-filter-based TBD framework. The notebook generates synthetic multichannel observations, applies both likelihood models, and visualizes the resulting target position estimates together with the root mean square error (RMSE).
 
-Copyright (c) 2026 National Institute of Advanced Industrial Science and Technology (AIST). Licensed under CC BY-SA 4.0.
+Copyright (c) 2026 National Institute of Advanced Industrial Science and Technology (AIST).
+Licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+
 ## Software Requirements
 The notebook is written in Python and depends mainly on NumPy, Matplotlib, and FilterPy.
 ## Quick Start
@@ -44,4 +46,8 @@ If this repository contributes to your research, please cite the following refer
 }
 ```
 ## License
-This repository is distributed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+
+This repository is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+
+See the full license text in [LICENSE](LICENSE), and the official license page here:
+https://creativecommons.org/licenses/by-sa/4.0/
